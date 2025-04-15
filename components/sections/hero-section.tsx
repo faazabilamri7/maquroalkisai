@@ -31,6 +31,13 @@ import {
 import RegisterNowForm from "@/components/register-now-form";
 
 export default function HeroSection() {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="relative min-h-[90vh] md:min-h-screen pt-20 md:pt-32 pb-12 md:pb-32 overflow-hidden bg-[url('/hero-bg.jpg')] bg-cover bg-center bg-fixed px-4">
       <div className="absolute inset-0 bg-gradient-to-b from-[#8B5A2B]/70 to-[#8B5A2B]/40 backdrop-blur-[1px] md:backdrop-blur-[2px]"></div>
@@ -76,6 +83,7 @@ export default function HeroSection() {
               <Button
                 size="lg"
                 className="text-sm sm:text-base bg-white text-[#8B5A2B] hover:bg-[#8B5A2B] hover:text-white shadow-lg hover:shadow-xl transition-all duration-500 transform hover:scale-105 font-medium px-4 sm:px-6"
+                onClick={() => scrollToSection("registrasi")}
               >
                 Penerimaan Santri Baru
               </Button>
@@ -83,6 +91,7 @@ export default function HeroSection() {
                 size="lg"
                 variant="outline"
                 className="text-sm sm:text-base border-2 border-white bg-white/10 text-white hover:bg-white hover:text-[#8B5A2B] shadow-lg backdrop-blur-sm transition-all duration-500 transform hover:scale-105 flex items-center gap-2 font-medium group px-4 sm:px-6"
+                onClick={() => scrollToSection("tentang")}
               >
                 <span>Tentang Maquro Al Kisai</span>
                 <ChevronDown className="h-4 w-4 sm:h-5 sm:w-5 transform group-hover:translate-y-1 transition-transform duration-300" />
