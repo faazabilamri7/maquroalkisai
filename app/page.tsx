@@ -305,6 +305,26 @@ function HeroSection() {
               delay: 0.3,
               ease: "easeOut",
             }}
+            className="flex justify-center w-full"
+          >
+            <div className="relative group w-full max-w-2xl aspect-video rounded-lg overflow-hidden shadow-2xl">
+              <iframe
+                src="https://www.youtube.com/embed/bSIOoVSvlhk?autoplay=1&mute=1&controls=1&cc_load_policy=0"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="w-full h-full transform transition-all duration-700 hover:scale-105"
+              ></iframe>
+            </div>
+          </motion.div>
+          {/* <motion.div
+            initial={{ opacity: 0, scale: 0.9, rotateY: -15 }}
+            animate={{ opacity: 1, scale: 1, rotateY: 0 }}
+            transition={{
+              duration: 1.2,
+              delay: 0.3,
+              ease: "easeOut",
+            }}
             className="flex justify-center perspective-1000"
           >
             <div className="relative group">
@@ -319,7 +339,7 @@ function HeroSection() {
               />
               <div className="absolute inset-0 rounded-lg bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-          </motion.div>
+          </motion.div> */}
         </div>
 
         <motion.button
@@ -1820,7 +1840,7 @@ function GallerySection() {
                 height="500"
                 frameBorder="0"
                 scrolling="no"
-                allowTransparency={true}
+                // allowtransparency="true"
                 className="rounded-lg shadow-lg"
               ></iframe>
             </div>
