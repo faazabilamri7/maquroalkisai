@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-cinzel {
+  font-family: "Cinzel", serif;
+}
+
+:root {
+  --background: 36 30% 98%;
+  --foreground: 20 25% 23%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 20 25% 23%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 25% 23%;
+
+  --primary: 30 52% 36%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 35 55% 94%;
+  --secondary-foreground: 20 25% 23%;
+
+  --muted: 35 55% 94%;
+  --muted-foreground: 20 14% 40%;
+
+  --accent: 35 55% 94%;
+  --accent-foreground: 20 25% 23%;
+
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 30 30% 90%;
+  --input: 30 30% 90%;
+  --ring: 30 52% 36%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 20 25% 10%;
+  --foreground: 35 40% 94%;
+
+  --card: 20 25% 15%;
+  --card-foreground: 35 40% 94%;
+
+  --popover: 20 25% 15%;
+  --popover-foreground: 35 40% 94%;
+
+  --primary: 30 52% 36%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 20 25% 20%;
+  --secondary-foreground: 35 40% 94%;
+
+  --muted: 20 25% 20%;
+  --muted-foreground: 35 20% 75%;
+
+  --accent: 20 25% 20%;
+  --accent-foreground: 35 40% 94%;
+
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 35 40% 94%;
+
+  --border: 20 25% 25%;
+  --input: 20 25% 25%;
+  --ring: 30 52% 50%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
