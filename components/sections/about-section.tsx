@@ -157,7 +157,29 @@ export default function AboutSection() {
             className="relative group perspective-1000 mt-8 md:mt-0"
           >
             <div className="absolute -inset-1 md:-inset-2 bg-gradient-to-r from-[#8B5A2B] to-[#D4A574] rounded-xl md:rounded-3xl blur opacity-20 group-hover:opacity-30 transition-opacity duration-300"></div>
+
             <div className="relative z-10 overflow-hidden rounded-xl md:rounded-2xl shadow-lg md:shadow-2xl transform group-hover:-rotate-1 transition-transform duration-500">
+              <Image
+                src="/pendaftaran.jpg"
+                alt="Pendaftaran Santri Baru"
+                width={600}
+                height={400}
+                className="w-full h-auto transform group-hover:scale-105 transition-transform duration-500"
+                priority
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <h3 className="font-cinzel text-xl font-bold text-white">
+                  Pendaftaran Santri Baru
+                </h3>
+                <p className="text-white/90 text-sm mt-1">
+                  Yuk segera daftarkan putra-putri anda untuk bergabung bersama
+                  kami
+                </p>
+              </div>
+            </div>
+
+            {/* <div className="relative z-10 overflow-hidden rounded-xl md:rounded-2xl shadow-lg md:shadow-2xl transform group-hover:-rotate-1 transition-transform duration-500">
               <Image
                 src="/madrasah-building.jpg"
                 alt="Gedung Maquro Al Kisai"
@@ -175,7 +197,7 @@ export default function AboutSection() {
                   Lokasi pembelajaran yang nyaman dan kondusif
                 </p>
               </div>
-            </div>
+            </div> */}
           </motion.div>
         </div>
       </div>

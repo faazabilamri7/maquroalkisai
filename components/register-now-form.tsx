@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 
 export default function RegisterNowForm({ className }: { className?: string }) {
   const handleClick = () => {
-    const phoneNumber = "6285311429632"; // Replace with your WhatsApp number
+    const phoneNumber = "6285157706686"; // Replace with your WhatsApp number
     const message =
       "Halo, saya ingin mendaftarkan anak saya di Maquro Al Kisai";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(

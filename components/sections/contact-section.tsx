@@ -65,7 +65,7 @@ export default function ContactSection() {
   
       // Open WhatsApp with prefilled message
       window.open(
-        `https://wa.me/6285311429632?text=${whatsappMessage}`,
+        `https://wa.me/6285157706686?text=${whatsappMessage}`,
         "_blank"
       );
   
@@ -134,17 +134,17 @@ export default function ContactSection() {
                             Info Pendaftaran
                           </p>
                           <a
-                            href="https://wa.me/6285311429632"
+                            href="https://wa.me/6285157706686"
                             className="text-xs md:text-sm text-[#5D4037] hover:text-[#8B5A2B] transition-colors block"
                           >
-                            +62 853-1142-9632 (Admin 1)
+                            +6285157706686 (Admin 1)
                           </a>
-                          <a
+                          {/* <a
                             href="https://wa.me/6285719662779"
                             className="text-xs md:text-sm text-[#5D4037] hover:text-[#8B5A2B] transition-colors"
                           >
                             +62 857-1966-2779 (Admin 2)
-                          </a>
+                          </a> */}
                         </div>
                       </div>
                     </motion.div>

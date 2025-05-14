@@ -198,7 +198,7 @@ function ContactInfoSection() {
               desc: "Kunjungi kami di lokasi madrasah atau sekretariat",
               icon: <MapPin className="h-10 w-10 text-[#8B5A2B]" />,
               details: [
-                "Gedung An Nur Maquro Al Kisai",
+                "Gedung Jariyah An Nur MAQURO AL KISAI",
                 "Jl. Pondok Jaya No.11, Pondok Jaya",
                 "Kecamatan Pondok Aren, Kota Tangerang Selatan, Banten 15220",
               ],

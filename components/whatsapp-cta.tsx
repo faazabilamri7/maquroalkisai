@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 export default function WhatsAppCTA() {
   const [isOpen, setIsOpen] = useState(false);
-  const whatsappNumber = "+6281234567890"; // Ganti dengan nomor WhatsApp admin
+  const whatsappNumber = "+6285157706686"; // Ganti dengan nomor WhatsApp admin
   const defaultMessage =
     "Assalamualaikum, saya ingin bertanya tentang Maquro Al Kisai";
 

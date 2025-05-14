@@ -490,7 +490,7 @@ function LocationSection() {
                 <div className="space-y-4">
                   <div>
                     <h4 className="font-semibold text-[#8B5A2B] mb-1">
-                      Gedung An Nur MaQuRo Al Kisai
+                      Gedung Jariyah An Nur MAQURO AL KISAI
                     </h4>
                     <p className="text-[#5D4037]">
                       Jl. Pondok Jaya No.11

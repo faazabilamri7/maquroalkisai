@@ -64,7 +64,7 @@ export default function Footer() {
                 <Instagram className="h-4 w-4 md:h-5 md:w-5" />
               </Link>
               <Link
-                href="https://wa.me/6285311429632"
+                href="https://wa.me/6285157706686"
                 className="p-1.5 md:p-2 bg-white/10 rounded-full hover:bg-white/20 transition-colors duration-200"
                 aria-label="WhatsApp"
               >
@@ -133,13 +133,13 @@ export default function Footer() {
             <ul className="space-y-3 md:space-y-4">
               <li>
                 <Link
-                  href="https://wa.me/6285311429632"
+                  href="https://wa.me/6285157706686"
                   className="flex items-start gap-2 md:gap-3 group hover:bg-white/5 p-1.5 md:p-2 rounded-lg transition-colors duration-200 text-sm md:text-base"
                 >
                   <Phone className="h-4 w-4 md:h-5 md:w-5 mt-0.5 text-white/80 group-hover:text-white" />
                   <div className="space-y-0.5 md:space-y-1">
                     <span className="text-white/80 group-hover:text-white block transition-colors duration-200">
-                      +62 853-1142-9632
+                    +6285157706686
                     </span>
                     <span className="text-white/60 text-xs md:text-sm">
                       Admin 1
@@ -148,7 +148,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link
+                {/* <Link
                   href="https://wa.me/6285719662779"
                   className="flex items-start gap-3 group hover:bg-white/5 p-1.5 md:p-2 rounded-lg transition-colors duration-200 text-sm md:text-base"
                 >
@@ -159,7 +159,7 @@ export default function Footer() {
                     </span>
                     <span className="text-white/60 text-sm">Admin 2</span>
                   </div>
-                </Link>
+                </Link> */}
               </li>
             </ul>
           </div>

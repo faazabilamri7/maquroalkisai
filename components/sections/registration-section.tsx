@@ -93,58 +93,68 @@ export default function RegistrationSection() {
               <div className="space-y-4 md:space-y-6">
                 {[
                   {
-                    step: "Mengisi Formulir Pendaftaran",
-                    desc: "Formulir dapat diisi secara online melalui website atau offline di sekretariat",
-                    icon: "📝",
+                  step: "Pendaftaran",
+                  desc: "Pendaftaran dibuka hingga 23 Mei 2025",
+                  icon: "📝",
                   },
                   {
-                    step: "Membayar Biaya Pendaftaran",
-                    desc: "Pembayaran sebesar Rp 100.000 dapat dilakukan via transfer atau tunai",
-                    icon: "💳",
+                  step: "Verifikasi Data",
+                  desc: "Verifikasi data dilakukan hingga 31 Mei 2025",
+                  icon: "✅",
                   },
                   {
-                    step: "Tes Seleksi Santri",
-                    desc: "Meliputi tes baca Al-Quran, wawancara santri dan orang tua",
-                    icon: "📚",
+                  step: "Studium General",
+                  desc: "Studium General akan dilaksanakan pada 1 Juni 2025",
+                  icon: "🎓",
                   },
                   {
-                    step: "Pengumuman Hasil Seleksi",
-                    desc: "Diumumkan maksimal 7 hari setelah tes seleksi",
-                    icon: "📢",
+                  step: "Pengembalian Formulir",
+                  desc: "Formulir harus dikembalikan paling lambat 6 Juni 2025",
+                  icon: "📄",
                   },
                   {
-                    step: "Daftar Ulang",
-                    desc: "Melunasi biaya pendaftaran dan melengkapi berkas administrasi",
-                    icon: "✅",
+                  step: "Tes Tulis dan Interview",
+                  desc: "Tes tulis dan interview akan dilaksanakan pada 14/15 Juni 2025",
+                  icon: "📚",
+                  },
+                  {
+                  step: "Pengumuman",
+                  desc: "Hasil seleksi akan diumumkan pada 20 Juni 2025",
+                  icon: "📢",
+                  },
+                  {
+                  step: "Daftar Ulang",
+                  desc: "Daftar ulang dilakukan pada 25 hingga 28 Juni 2025",
+                  icon: "💳",
                   },
                 ].map((item, index) => (
                   <motion.div
-                    key={index}
-                    whileHover={{
-                      x: 4,
-                      boxShadow: "0 4px 6px -1px rgba(139, 90, 43, 0.1)",
-                    }}
-                    className="flex gap-4 md:gap-6 p-3 md:p-4 bg-white rounded-lg md:rounded-xl transition-all duration-200"
+                  key={index}
+                  whileHover={{
+                    x: 4,
+                    boxShadow: "0 4px 6px -1px rgba(139, 90, 43, 0.1)",
+                  }}
+                  className="flex gap-4 md:gap-6 p-3 md:p-4 bg-white rounded-lg md:rounded-xl transition-all duration-200"
                   >
-                    <div className="flex flex-col items-center gap-1 md:gap-2">
-                      <div className="w-8 h-8 md:w-12 md:h-12 bg-[#8B5A2B]/10 rounded-full flex items-center justify-center text-xl md:text-2xl">
-                        {item.icon}
-                      </div>
-                      <div className="w-1 h-full bg-[#8B5A2B]/10 rounded-full"></div>
+                  <div className="flex flex-col items-center gap-1 md:gap-2">
+                    <div className="w-8 h-8 md:w-12 md:h-12 bg-[#8B5A2B]/10 rounded-full flex items-center justify-center text-xl md:text-2xl">
+                    {item.icon}
                     </div>
-                    <div className="space-y-2 md:space-y-3">
-                      <div className="flex items-center gap-2 md:gap-3">
-                        <span className="text-xs font-semibold px-2 py-0.5 md:px-3 md:py-1 bg-[#8B5A2B]/10 text-[#8B5A2B] rounded-full">
-                          Langkah {index + 1}
-                        </span>
-                      </div>
-                      <h4 className="text-base md:text-lg font-bold text-[#8B5A2B]">
-                        {item.step}
-                      </h4>
-                      <p className="text-xs md:text-sm text-[#5D4037]/90 leading-relaxed">
-                        {item.desc}
-                      </p>
+                    <div className="w-1 h-full bg-[#8B5A2B]/10 rounded-full"></div>
+                  </div>
+                  <div className="space-y-2 md:space-y-3"></div>
+                    <div className="flex items-center gap-2 md:gap-3">
+                    <span className="text-xs font-semibold px-2 py-0.5 md:px-3 md:py-1 bg-[#8B5A2B]/10 text-[#8B5A2B] rounded-full">
+                      Langkah {index + 1}
+                    </span>
                     </div>
+                    <h4 className="text-base md:text-lg font-bold text-[#8B5A2B]">
+                    {item.step}
+                    </h4>
+                    <p className="text-xs md:text-sm text-[#5D4037]/90 leading-relaxed">
+                    {item.desc}
+                    </p>
+                  </div>
                   </motion.div>
                 ))}
               </div>
