@@ -188,8 +188,8 @@ function ContactInfoSection() {
               desc: "Hubungi kami melalui telepon untuk informasi lebih lanjut",
               icon: <Phone className="h-10 w-10 text-[#8B5A2B]" />,
               details: [
-                "Admin 1: +62 853-1142-9632",
-                "Admin 2: +62 857-1966-2779",
+                "Admin 1: +6285157706686",
+                // "Admin 2: +62 857-1966-2779",
                 "Jam Operasional: 08.00 - 16.00 WIB",
               ],
             },
@@ -562,8 +562,7 @@ function FAQSection() {
               <AccordionContent className="text-[#5D4037]">
                 Jika Anda memiliki pertanyaan lain, silakan hubungi kami melalui
                 formulir kontak di website ini, atau hubungi langsung Admin
-                Pendaftaran kami di nomor +62 853-1142-9632 (Admin 1) atau +62
-                857-1966-2779 (Admin 2). Kami siap membantu Anda dengan
+                Pendaftaran kami di nomor +6285157706686 (Admin). Kami siap membantu Anda dengan
                 informasi lebih lanjut tentang Maquro Al Kisai.
               </AccordionContent>
             </AccordionItem>

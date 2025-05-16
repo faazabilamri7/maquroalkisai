@@ -523,9 +523,9 @@ function LocationSection() {
                       Kontak
                     </h4>
                     <p className="text-[#5D4037]">
-                      Admin 1: +62 853-1142-9632
-                      <br />
-                      Admin 2: +62 857-1966-2779
+                      Admin 1: +6285157706686
+                      {/* <br />
+                      Admin 2: +62 857-1966-2779 */}
                     </p>
                   </div>
                 </div>

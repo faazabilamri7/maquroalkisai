@@ -1076,8 +1076,7 @@ export default function RegistrationPage() {
                   Jika Anda memiliki pertanyaan lain, silakan hubungi Admin
                   Pendaftaran kami melalui:
                   <ul className="list-disc list-inside mt-2 space-y-1">
-                    <li>Admin 1: +62 853-1142-9632</li>
-                    <li>Admin 2: +62 857-1966-2779</li>
+                    <li>Admin 1: +6285157706686</li>
                   </ul>
                   Atau kunjungi sekretariat kami di Yayasan Risalah Cahaya Ilmu,
                   Pondok Kacang Prima, Jl. Ketapang Blok I No.2, RT.18/RW.8,
